@@ -1,0 +1,4 @@
+baseURL = "https://exapmle.org/"
+languageCode = "en-us"
+title = "Vankichi Portfolio"
+theme = "ananke"
