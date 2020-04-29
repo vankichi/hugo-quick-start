@@ -1,0 +1,66 @@
+html {
+  font-size: 62.5%
+  color: #333333
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  background-color: #333333;
+}
+
+.header nav {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header a {
+  display: block;
+  color: #ffffff;
+  float: left;
+  padding: 0 0 0 24px;
+}
+
+.header nav ul {
+  position: relative;
+  min-width: 768px;
+  text-align: right;
+  left: 0;
+  transition: none;
+  top: 0;
+  padding: 5px 0 0;
+  display: inline-block;
+}
+
+.header nav ul li {
+  display: inline-block;
+}
+
+.top {
+  background-color: #0F7684;
+  position: relative;
+  margin: 68px;
+}
+
+.top p {
+  color: #ffffff;
+}
+
+.post {
+  width: 100%;
+  background-color: #0F7684;
+  position: relative;
+  margin-top: 68px;
+  padding: 0 0 24px 24px;
+}
+
+.post h1, h2, li, p, tr {
+  color: #ffffff;
+}
+
+.post ul {
+  list-style: square;
+}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="post">
+  <h1>{{ .Title }}</h1>
+  
+  <p>section name: {{ with .Section }}{{ . }}{{ else }} no section {{ end }}</p>
+  
+  <main>
+  
+  
+  
+  {{ .Content }}
+  </main>
+</div>
+{{ end }}
